@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Ekle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Ekle</h2>
+<form class="form-horizontal" method="post" action="/kisi/Ekle">
+    <div class="form-group">
+        <label>Ad</label>
+        <input type="text" class="form-control" name="Ad" />
+    </div>
+    <div class="form-group">
+        <label>Soyad</label>
+        <input type="text" class="form-control" name="Soyad" />
+    </div>
+
+    <div class="form-group">
+        <label>Cep telefonu</label>
+        <input type="text" class="form-control" name="CepTelefon" />
+    </div>
+    <select class="form-control" name="SehirId">
+        <option value="1">İstanbul</option>
+        <option value="2">Yalova</option>
+        <option value="3">Ankara</option>
+        <option value="4">Bursa</option>
+    </select>
+    <input type="submit" class="btn btn-primary" value="kaydet" />
+</form>
