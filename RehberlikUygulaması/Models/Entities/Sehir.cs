@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace MvcPhoneNumber.Models.entities
+namespace RehberlikUygulaması.Models.entities
 {
     public class Sehir
     {
